@@ -1,3 +1,7 @@
+CREATE DATABASE retail_db;
+USE retail_db;
+SELECT * FROM cleaned_sales;
+
 --- Total Revenue ---
 SELECT SUM(`Total Amount`) AS total_revenue
 FROM cleaned_sales;
