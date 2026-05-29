@@ -51,3 +51,14 @@ SELECT DAYNAME(Date) AS day_name,
 FROM cleaned_sales
 GROUP BY day_name
 ORDER BY revenue DESC;
+
+--- Distinct Categories ---
+SELECT DISTINCT `Product Category`
+FROM cleaned_sales;
+
+--- Window Function ---
+SELECT `Product Category`,
+       SUM(`Total Amount`) AS revenue,
+       RANK() OVER(ORDER BY SUM(`Total Amount`) DESC) AS sales_rank
+FROM cleaned_sales
+GROUP BY `Product Category`;
