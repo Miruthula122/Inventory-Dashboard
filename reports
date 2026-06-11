@@ -1,0 +1,102 @@
+Omnichannel Retail Sales and Inventory Analytics Dashboard – Final Report
+
+1. Introduction
+
+The objective of this project was to develop an end-to-end retail analytics solution that integrates sales data, performs data cleaning and analysis, and presents business insights through an interactive Power BI dashboard. The project aims to help retailers monitor sales performance, identify customer trends, and support inventory planning.
+
+
+2. Dataset Overview
+
+The dataset contains retail transaction records with the following attributes:
+
+* Date
+* Customer ID
+* Gender
+* Age
+* Product Category
+* Quantity
+* Price per Unit
+* Total Amount
+* Customer Location
+* Payment Method
+
+Total Records Analyzed: 1,250
+
+
+3. Data Cleaning and Preparation
+
+The following preprocessing steps were performed:
+
+* Checked for missing values and inconsistencies
+* Removed duplicate records
+* Standardized date formats
+* Verified column data types
+* Created Month column for trend analysis
+* Prepared the dataset for SQL analysis and Power BI visualization
+
+
+4. Exploratory Data Analysis
+
+EDA was conducted using Python libraries such as Pandas, Matplotlib, and Seaborn.
+
+The analysis focused on:
+
+* Product category performance
+* Customer demographics
+* Monthly sales trends
+* Revenue distribution
+* Correlation analysis
+
+Visualizations such as bar charts, line charts, and heatmaps were generated to understand patterns within the data.
+
+
+5. SQL Analysis
+
+SQL queries were used to calculate key business metrics including:
+
+* Total Revenue
+* Average Revenue per Order
+* Product Category Revenue
+* Gender-wise Revenue Distribution
+* Monthly Sales Performance
+
+Aggregation functions, GROUP BY, HAVING, CTEs, and Window Functions were utilized for analysis.
+
+
+6. Dashboard Overview
+
+An interactive Power BI dashboard was created containing:
+
+* Total Revenue KPI
+* Total Orders KPI
+* Average Revenue KPI
+* Product Category Analysis
+* Monthly Sales Trend Analysis
+* Gender-wise Revenue Distribution
+* Interactive Filters and Slicers
+
+The dashboard enables users to drill down into specific product categories and time periods for detailed analysis.
+
+
+7. Key Findings
+
+* Total Revenue generated was approximately ₹699,845.
+* Electronics was the highest-performing category, generating approximately ₹286,855 in revenue.
+* Clothing generated approximately ₹159,120 in revenue.
+* Beauty products generated approximately ₹143,515 in revenue.
+* Female customers contributed slightly more revenue than male customers.
+* Sales were concentrated primarily in Electronics, Clothing, and Beauty categories.
+* Monthly sales trends indicated fluctuations throughout the year, suggesting seasonal purchasing patterns.
+
+
+8. Business Recommendations
+
+* Increase inventory allocation for Electronics due to consistently strong sales performance.
+* Focus promotional campaigns on Clothing and Beauty products to increase revenue contribution.
+* Monitor seasonal demand trends to improve inventory planning and reduce stock shortages.
+* Continue customer engagement strategies across both genders, as revenue contribution is relatively balanced.
+
+
+9. Conclusion
+
+This project successfully demonstrated the complete data analytics workflow, including data cleaning, exploratory data analysis, SQL-based business analysis, and dashboard development. The insights generated from the analysis can support better inventory management, sales monitoring, and strategic business decision-making.
