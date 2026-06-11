@@ -1,191 +1,181 @@
-# Omnichannel Retail Sales and Inventory Analytics Dashboard
+# Sales Data Analysis Project
+
+A comprehensive data analysis project that consolidates sales data from multiple sources, performs rigorous data cleaning, and generates statistical insights and visualizations to drive business decisions.
 
 ## Project Overview
 
-This project focuses on analyzing retail sales data to generate actionable business insights through data cleaning, SQL analysis, and interactive Power BI visualizations. The objective is to help retailers monitor sales performance, understand customer behavior, and improve inventory planning.
-
----
-
-## Tools and Technologies
-
-* Python (Pandas, NumPy, Matplotlib, Seaborn)
-* Jupyter Notebook
-* SQL (MySQL/PostgreSQL)
-* Power BI
-* Microsoft Excel
-* Git & GitHub
-
----
-
-## Dataset Description
-
-The dataset contains retail transaction records with the following fields:
-
-* Date
-* Customer ID
-* Gender
-* Age
-* Product Category
-* Quantity
-* Price per Unit
-* Total Amount
-* Month
-* Customer Location
-* Payment Method
-
-### Dataset Size
-
-* Total Records: 1,250
-* Product Categories: Electronics, Clothing, Beauty, Home Appliances, Footwear, Books
-* Customer Segments: Male and Female
-
----
-
-## Data Cleaning and Preparation
-
-The following preprocessing steps were performed:
-
-* Removed duplicate records
-* Checked for missing values
-* Standardized date formats
-* Validated column data types
-* Created Month-based features for trend analysis
-* Prepared data for SQL querying and dashboard visualization
-
-  <img width="810" height="348" alt="image" src="https://github.com/user-attachments/assets/0ed16235-e255-47d5-99e2-e1f1db5763f5" />
-
-
----
-
-## Exploratory Data Analysis
-
-EDA was conducted using Python to identify:
-
-* Revenue trends
-* Product category performance
-* Customer purchasing behavior
-* Monthly sales patterns
-* Gender-wise revenue distribution
-
-Visualizations were created using Matplotlib and Seaborn to support the analysis.
-
-<img width="724" height="427" alt="image" src="https://github.com/user-attachments/assets/f36b7bf3-ae8e-4c11-b45f-02fc9e50cedb" />
-
-<img width="724" height="427" alt="image" src="https://github.com/user-attachments/assets/ac326b8f-00f2-4d1f-97d1-d4bb6449824c" />
-
-
----
-
-## SQL Analysis
-
-SQL queries were used to calculate:
-
-* Total Revenue
-* Total Orders
-* Average Revenue per Order
-* Revenue by Product Category
-* Revenue by Gender
-* Monthly Sales Performance
-
-Advanced SQL concepts such as GROUP BY, HAVING, CTEs, and Window Functions were utilized.
-
-<img width="484" height="252" alt="image" src="https://github.com/user-attachments/assets/941be1de-f043-43be-a37f-353446f4d63b" />
-
-
----
-
-## Dashboard Features
-
-The Power BI dashboard includes:
-
-* Total Revenue KPI
-* Total Orders KPI
-* Average Revenue KPI
-* Product Category Analysis
-* Monthly Sales Trend Analysis
-* Gender-wise Revenue Distribution
-* Interactive Filters and Slicers
-
-## Page 1
-<img width="1294" height="734" alt="image" src="https://github.com/user-attachments/assets/49f6a8a9-a1e5-4fe6-8f32-682163588935" />
-
-## Page 2
-<img width="1293" height="734" alt="image" src="https://github.com/user-attachments/assets/fb07af7f-fe1c-47ca-9b53-3818d372ecd0" />
-
----
-
-## Key Insights
-
-### Revenue Performance
-
-* Total Revenue Generated: ₹699,845
-* Total Transactions: 1,250
-* Average Revenue per Order: ₹559.88
-
-### Product Category Analysis
-
-| Product Category | Revenue  |
-| ---------------- | -------- |
-| Electronics      | ₹286,855 |
-| Clothing         | ₹159,120 |
-| Beauty           | ₹143,515 |
-| Home Appliances  | ₹105,000 |
-| Footwear         | ₹4,320   |
-| Books            | ₹1,035   |
-
-**Insight:** Electronics generated the highest revenue, contributing significantly more than other categories.
-
-### Customer Analysis
-
-| Gender | Revenue  |
-| ------ | -------- |
-| Female | ₹232,840 |
-| Male   | ₹223,160 |
-
-**Insight:** Revenue contribution from female and male customers was relatively balanced, with female customers contributing slightly more revenue.
-
-### Monthly Sales Trends
-
-Top Revenue Months:
-
-| Month    | Revenue  |
-| -------- | -------- |
-| February | ₹166,755 |
-| March    | ₹146,720 |
-| May      | ₹53,150  |
-| October  | ₹46,580  |
-| December | ₹44,690  |
-
-**Insight:** February and March recorded the highest sales, indicating strong seasonal demand during these periods.
-
----
-
-## Business Recommendations
-
-1. Increase inventory allocation for Electronics due to consistently strong performance.
-2. Focus promotional campaigns on Clothing and Beauty categories to drive additional revenue.
-3. Investigate low-performing categories such as Books and Footwear to determine whether pricing, marketing, or inventory strategies require adjustment.
-4. Prepare inventory in advance for high-demand months such as February and March.
-5. Continue targeting both male and female customer segments since revenue contributions are nearly balanced.
-
----
+This project integrates sales data from two independent sources (`sales.csv` and `sales1.csv`), processes them through a complete data cleaning pipeline, and conducts detailed exploratory data analysis (EDA) with visual insights. The analysis focuses on identifying sales trends, product category performance, and potential data anomalies through statistical rigor.
 
 ## Project Structure
 
-```text
-Omnichannel-Retail-Dashboard
-│
-├── data
-├── notebooks
-├── sql
-├── dashboard
-├── screenshots
-├── reports
-└── README.md
 ```
+├── dashboard/                          # Dashboard-related files
+├── Data/                              # Data files
+│   ├── sales.csv                      # Raw sales data (source 1)
+│   ├── sales1.csv                     # Raw sales data (source 2)
+│   ├── cleaned_sales.csv              # Cleaned sales data (source 1)
+│   ├── cleaned_sales1.csv             # Cleaned sales data (source 2)
+│   └── cleaned_CombinedSales.csv      # Combined and cleaned sales data (master file)
+├── Notebooks/                         # Jupyter notebooks
+│   └── data_cleaning.ipynb            # Data cleaning and exploratory analysis
+└── sql/                               # SQL queries
+    └── analysis_queries.sql           # Advanced database queries for analytics
+```
+
+## Data Processing Pipeline
+
+### 1. Data Ingestion
+- Loads multiple CSV files to consolidate disparate sales data sources
+- Preserves data integrity by maintaining separate datasets initially for source-level validation
+
+### 2. Data Cleaning
+- **Null Value Handling**: Removes records with missing values to ensure analysis quality
+- **Duplicate Removal**: Eliminates duplicate records that may skew statistical results
+- **Date Parsing**: Converts date strings to datetime objects for proper temporal analysis
+- **Feature Engineering**: Extracts month names for seasonal trend analysis
+
+### 3. Data Consolidation
+- Combines cleaned datasets using `pd.concat()` to create a unified dataset
+- Creates `cleaned_CombinedSales.csv` as the master file for downstream analytics
+- Enables comparative analysis across both sales sources
+
+## Analysis Methodology
+
+### Statistical Analysis
+The notebook computes comprehensive descriptive statistics:
+
+- **Central Tendency**: Mean, Median
+  - Provides insight into typical sales values
+  - Identifies skewness in the sales distribution
+  
+- **Dispersion Measures**: Standard Deviation, Variance
+  - Quantifies sales volatility and consistency
+  - Helps understand business stability and predictability
+  
+- **Correlation Analysis**: 
+  - Identifies relationships between numeric variables (e.g., quantity vs. total amount)
+  - Reveals interdependencies for predictive modeling
+
+### Exploratory Data Analysis (EDA)
+
+1. **Distribution Analysis**
+   - Histogram with KDE (Kernel Density Estimation) of total sales
+   - Reveals whether sales follow a normal distribution or show bimodal/multimodal patterns
+   - Informs pricing strategies and inventory management
+
+2. **Outlier Detection**
+   - Boxplot visualization identifies anomalous transactions
+   - Separates legitimate high-value sales from potential data errors
+   - Critical for fraud detection and business rule validation
+
+3. **Category Performance**
+   - Bar chart showing revenue contribution by product category
+   - Enables resource allocation and strategic focus decisions
+   - Identifies top-performing and underperforming product lines
+
+4. **Temporal Trends**
+   - Line chart tracking monthly sales aggregates
+   - Reveals seasonality, growth trends, and cyclical patterns
+   - Essential for forecasting and inventory planning
+
+5. **Correlation Matrix**
+   - Heatmap visualization of variable relationships
+   - Identifies multicollinearity for feature selection in models
+   - Suggests causal relationships worth investigating further
+
+## Key Features
+
+- **Multi-source Integration**: Seamlessly combines data from different systems/departments
+- **Reproducible Pipeline**: Jupyter notebook ensures transparent, auditable analysis
+- **Quality Assurance**: Built-in data validation and cleanliness checks
+- **Visualization-Rich**: Publication-ready charts for stakeholder communication
+- **SQL-Ready**: Includes advanced queries for database-level analytics
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- pandas (data manipulation)
+- matplotlib (plotting)
+- seaborn (statistical visualizations)
+- jupyter (interactive notebook environment)
+
+### Installation
+
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
+
+### Running the Analysis
+
+1. Navigate to the project directory:
+   ```bash
+   cd "Project 1"
+   ```
+
+2. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+3. Open and run `Notebooks/data_cleaning.ipynb`
+   - Execute cells sequentially or use "Run All"
+   - Monitor kernel variables for intermediate results
+
+## Output Artifacts
+
+### Generated Files
+- `cleaned_sales.csv` - Cleaned data from source 1
+- `cleaned_sales1.csv` - Cleaned data from source 2  
+- `cleaned_CombinedSales.csv` - Master dataset combining both sources
+
+### Generated Insights
+- **Console Output**: Statistical summaries (mean, median, std dev, variance)
+- **Visualizations**: 5 publication-ready charts
+- **Data Quality Metrics**: Missing value and duplicate counts
+
+## Business Insights
+
+The analysis enables:
+
+- **Performance Monitoring**: Track revenue trends across categories and time periods
+- **Data Quality Management**: Identify data issues for source system remediation
+- **Anomaly Detection**: Flag unusual transactions for investigation
+- **Forecasting**: Use historical patterns for demand planning
+- **Strategic Planning**: Allocate resources based on category performance and trends
+
+## Advanced Usage
+
+### SQL Analysis
+For advanced queries beyond pandas capabilities, refer to `sql/analysis_queries.sql`:
+- Complex aggregations
+- Cross-tabulation analysis
+- Time-series decomposition
+- Cohort analysis
+
+### Dashboard Integration
+The `dashboard/` folder is prepared for:
+- BI tool integration (Power BI, Tableau)
+- Real-time metric dashboards
+- Executive reporting
+
+## Notes & Recommendations
+
+- **Data Validation**: Review cleaned data samples before downstream use
+- **Version Control**: Commit CSV files after significant transformations
+- **Scalability**: For datasets >1GB, consider database solutions (SQL, Spark)
+- **Automation**: Schedule notebook execution for periodic reporting
+- **Documentation**: Maintain data dictionary for column definitions and units
+
+## Troubleshooting
+
+- **Memory Issues**: Split data processing by date ranges if dataset is large
+- **Date Parsing Errors**: Verify date formats in source CSV files match expected patterns
+- **Missing Imports**: Reinstall packages if kernel errors occur: `pip install --upgrade pandas matplotlib seaborn`
 
 ---
 
-## Conclusion
-
-This project demonstrates a complete data analytics workflow from data cleaning and exploratory analysis to SQL-based business intelligence and dashboard development. The insights generated can support better inventory planning, sales monitoring, and strategic decision-making for retail businesses.
+**Last Updated**: 2026-06-11  
+**Data Sources**: sales.csv, sales1.csv  
+**Status**: Analysis Complete
