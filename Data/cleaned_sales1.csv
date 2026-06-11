@@ -1,0 +1,251 @@
+ID,Date,Product Category,Price per Unit,Quantity,Total Amount,Customer Location,Payment Method,Month
+ORD0001,2025-03-14,Footwear,60,3,180,New York,Debit Card,March
+ORD0002,2025-03-20,Electronics,100,4,400,San Francisco,Debit Card,March
+ORD0003,2025-02-15,Footwear,60,2,120,Denver,Amazon Pay,February
+ORD0004,2025-02-19,Footwear,60,3,180,Dallas,Credit Card,February
+ORD0005,2025-03-10,Electronics,150,3,450,New York,Debit Card,March
+ORD0006,2025-03-14,Clothing,20,1,20,Dallas,Credit Card,March
+ORD0007,2025-03-18,Electronics,150,4,600,Houston,PayPal,March
+ORD0008,2025-03-02,Electronics,500,1,500,Miami,PayPal,March
+ORD0009,2025-03-08,Clothing,20,3,60,Boston,PayPal,March
+ORD0010,2025-03-12,Electronics,500,1,500,San Francisco,Credit Card,March
+ORD0011,2025-02-17,Books,15,2,30,Boston,Amazon Pay,February
+ORD0012,2025-03-13,Clothing,40,4,160,Dallas,Credit Card,March
+ORD0013,2025-03-01,Electronics,800,2,1600,San Francisco,Gift Card,March
+ORD0014,2025-03-04,Home Appliances,600,3,1800,Miami,Credit Card,March
+ORD0015,2025-02-20,Electronics,150,4,600,Seattle,Credit Card,February
+ORD0016,2025-02-26,Home Appliances,1200,1,1200,Boston,Credit Card,February
+ORD0017,2025-04-01,Clothing,20,1,20,New York,Amazon Pay,April
+ORD0018,2025-02-10,Electronics,500,2,1000,Los Angeles,Amazon Pay,February
+ORD0019,2025-03-22,Footwear,60,3,180,Houston,Credit Card,March
+ORD0020,2025-03-07,Electronics,100,4,400,Seattle,Debit Card,March
+ORD0021,2025-02-05,Electronics,100,3,300,Miami,Debit Card,February
+ORD0022,2025-03-07,Home Appliances,1200,4,4800,Houston,Credit Card,March
+ORD0023,2025-02-23,Books,15,1,15,Houston,Credit Card,February
+ORD0024,2025-03-24,Home Appliances,1200,3,3600,Dallas,Credit Card,March
+ORD0025,2025-03-02,Books,15,5,75,Seattle,Amazon Pay,March
+ORD0026,2025-02-14,Home Appliances,600,1,600,Boston,Debit Card,February
+ORD0027,2025-02-07,Clothing,20,1,20,New York,Amazon Pay,February
+ORD0028,2025-02-03,Electronics,100,1,100,Chicago,Amazon Pay,February
+ORD0029,2025-02-12,Electronics,500,1,500,Denver,Credit Card,February
+ORD0030,2025-02-10,Home Appliances,600,3,1800,Dallas,Gift Card,February
+ORD0031,2025-03-24,Electronics,500,1,500,Houston,Gift Card,March
+ORD0032,2025-03-10,Electronics,500,4,2000,Seattle,PayPal,March
+ORD0033,2025-02-04,Books,15,1,15,New York,Debit Card,February
+ORD0034,2025-04-02,Clothing,20,5,100,New York,Credit Card,April
+ORD0035,2025-04-02,Electronics,800,3,2400,Denver,Amazon Pay,April
+ORD0036,2025-02-09,Home Appliances,1200,2,2400,Boston,PayPal,February
+ORD0037,2025-02-16,Electronics,100,3,300,New York,Debit Card,February
+ORD0038,2025-03-26,Electronics,800,3,2400,Chicago,Amazon Pay,March
+ORD0039,2025-03-02,Electronics,800,2,1600,San Francisco,PayPal,March
+ORD0040,2025-03-26,Electronics,150,1,150,Seattle,Gift Card,March
+ORD0041,2025-02-20,Books,15,1,15,Miami,Credit Card,February
+ORD0042,2025-03-17,Electronics,100,3,300,Chicago,Amazon Pay,March
+ORD0043,2025-02-08,Clothing,20,4,80,Denver,Credit Card,February
+ORD0044,2025-03-24,Electronics,150,1,150,Houston,Debit Card,March
+ORD0045,2025-03-15,Home Appliances,1200,3,3600,New York,Credit Card,March
+ORD0046,2025-03-06,Footwear,60,2,120,Houston,Debit Card,March
+ORD0047,2025-03-26,Clothing,20,2,40,Miami,Gift Card,March
+ORD0048,2025-02-11,Clothing,20,5,100,Denver,Amazon Pay,February
+ORD0049,2025-02-18,Electronics,500,4,2000,Chicago,Debit Card,February
+ORD0050,2025-03-14,Clothing,40,3,120,Boston,Gift Card,March
+ORD0051,2025-02-19,Books,15,1,15,Houston,Gift Card,February
+ORD0052,2025-02-24,Electronics,800,3,2400,San Francisco,Credit Card,February
+ORD0053,2025-03-24,Footwear,60,4,240,Los Angeles,PayPal,March
+ORD0054,2025-03-15,Electronics,150,3,450,Boston,Gift Card,March
+ORD0055,2025-03-15,Clothing,40,2,80,Dallas,PayPal,March
+ORD0056,2025-03-19,Electronics,150,2,300,Dallas,Credit Card,March
+ORD0057,2025-03-15,Electronics,500,1,500,Los Angeles,Debit Card,March
+ORD0058,2025-03-13,Electronics,500,1,500,Chicago,PayPal,March
+ORD0059,2025-04-01,Electronics,150,2,300,Dallas,Credit Card,April
+ORD0060,2025-03-12,Books,15,5,75,Dallas,Credit Card,March
+ORD0061,2025-03-11,Home Appliances,1200,1,1200,New York,PayPal,March
+ORD0062,2025-02-10,Electronics,800,5,4000,San Francisco,PayPal,February
+ORD0063,2025-03-30,Electronics,500,5,2500,Miami,Gift Card,March
+ORD0064,2025-02-13,Home Appliances,1200,4,4800,Denver,PayPal,February
+ORD0065,2025-03-16,Books,15,3,45,San Francisco,Amazon Pay,March
+ORD0066,2025-03-14,Electronics,150,2,300,Denver,PayPal,March
+ORD0067,2025-03-31,Electronics,100,3,300,New York,Debit Card,March
+ORD0068,2025-02-23,Electronics,100,1,100,Houston,Debit Card,February
+ORD0069,2025-02-25,Home Appliances,1200,4,4800,Boston,Gift Card,February
+ORD0070,2025-03-10,Books,15,1,15,Boston,Credit Card,March
+ORD0071,2025-03-16,Electronics,150,5,750,Denver,Credit Card,March
+ORD0072,2025-03-07,Electronics,800,3,2400,Houston,Credit Card,March
+ORD0073,2025-02-20,Electronics,500,5,2500,Miami,Credit Card,February
+ORD0074,2025-03-25,Home Appliances,1200,4,4800,Dallas,Gift Card,March
+ORD0075,2025-02-26,Electronics,100,2,200,Boston,PayPal,February
+ORD0076,2025-02-24,Home Appliances,600,1,600,Dallas,Amazon Pay,February
+ORD0077,2025-03-20,Electronics,100,2,200,Houston,Credit Card,March
+ORD0078,2025-03-18,Electronics,150,2,300,Los Angeles,Gift Card,March
+ORD0079,2025-03-09,Footwear,60,2,120,Denver,Gift Card,March
+ORD0080,2025-02-23,Footwear,60,4,240,San Francisco,Debit Card,February
+ORD0081,2025-02-26,Electronics,100,3,300,Chicago,PayPal,February
+ORD0082,2025-02-24,Electronics,500,3,1500,Seattle,Debit Card,February
+ORD0083,2025-02-28,Home Appliances,600,4,2400,Houston,Gift Card,February
+ORD0084,2025-02-14,Clothing,20,5,100,Boston,PayPal,February
+ORD0085,2025-02-06,Electronics,500,5,2500,Houston,PayPal,February
+ORD0086,2025-02-25,Electronics,150,5,750,Dallas,PayPal,February
+ORD0087,2025-03-13,Footwear,60,5,300,Miami,Debit Card,March
+ORD0088,2025-02-06,Home Appliances,1200,2,2400,Seattle,Debit Card,February
+ORD0089,2025-03-26,Footwear,60,5,300,Los Angeles,Credit Card,March
+ORD0090,2025-03-24,Electronics,150,5,750,Houston,Amazon Pay,March
+ORD0091,2025-02-03,Electronics,800,4,3200,Houston,Gift Card,February
+ORD0092,2025-03-15,Electronics,500,2,1000,Boston,PayPal,March
+ORD0093,2025-03-06,Home Appliances,1200,5,6000,Denver,PayPal,March
+ORD0094,2025-03-25,Clothing,40,5,200,Seattle,Credit Card,March
+ORD0095,2025-02-17,Electronics,150,4,600,New York,Debit Card,February
+ORD0096,2025-03-30,Electronics,150,3,450,New York,Amazon Pay,March
+ORD0097,2025-03-25,Books,15,5,75,Chicago,Amazon Pay,March
+ORD0098,2025-02-14,Electronics,150,2,300,Miami,PayPal,February
+ORD0099,2025-02-18,Home Appliances,600,5,3000,Seattle,Debit Card,February
+ORD0100,2025-02-13,Footwear,60,1,60,Houston,Gift Card,February
+ORD0101,2025-02-20,Books,15,5,75,Denver,PayPal,February
+ORD0102,2025-02-28,Electronics,500,2,1000,Boston,PayPal,February
+ORD0103,2025-03-14,Clothing,20,2,40,Chicago,PayPal,March
+ORD0104,2025-02-22,Clothing,40,5,200,Dallas,Debit Card,February
+ORD0105,2025-03-16,Clothing,40,1,40,Boston,Debit Card,March
+ORD0106,2025-03-15,Clothing,20,3,60,Chicago,PayPal,March
+ORD0107,2025-03-19,Clothing,40,3,120,Dallas,Credit Card,March
+ORD0108,2025-03-16,Electronics,100,2,200,Miami,PayPal,March
+ORD0109,2025-03-17,Clothing,40,5,200,New York,PayPal,March
+ORD0110,2025-02-18,Electronics,500,5,2500,Dallas,Amazon Pay,February
+ORD0111,2025-03-31,Electronics,800,4,3200,Los Angeles,Credit Card,March
+ORD0112,2025-03-06,Home Appliances,600,2,1200,Dallas,Gift Card,March
+ORD0113,2025-03-19,Books,15,5,75,San Francisco,Debit Card,March
+ORD0114,2025-02-23,Footwear,60,1,60,Houston,Credit Card,February
+ORD0115,2025-03-21,Footwear,60,3,180,Miami,Amazon Pay,March
+ORD0116,2025-03-19,Electronics,800,4,3200,Los Angeles,Amazon Pay,March
+ORD0117,2025-02-27,Clothing,20,1,20,New York,Credit Card,February
+ORD0118,2025-02-10,Electronics,100,5,500,Houston,Amazon Pay,February
+ORD0119,2025-03-16,Electronics,500,2,1000,Chicago,PayPal,March
+ORD0120,2025-02-16,Electronics,800,5,4000,Denver,PayPal,February
+ORD0121,2025-02-18,Electronics,500,1,500,Dallas,Gift Card,February
+ORD0122,2025-03-28,Electronics,800,3,2400,Miami,Credit Card,March
+ORD0123,2025-02-23,Books,15,3,45,Boston,Gift Card,February
+ORD0124,2025-02-10,Books,15,1,15,Seattle,Gift Card,February
+ORD0125,2025-02-23,Electronics,500,1,500,Denver,Amazon Pay,February
+ORD0126,2025-02-04,Home Appliances,1200,5,6000,Chicago,Gift Card,February
+ORD0127,2025-02-18,Clothing,20,3,60,Dallas,Debit Card,February
+ORD0128,2025-03-23,Electronics,150,2,300,Dallas,PayPal,March
+ORD0129,2025-02-26,Clothing,40,5,200,New York,Debit Card,February
+ORD0130,2025-02-10,Electronics,150,5,750,Boston,PayPal,February
+ORD0131,2025-02-26,Clothing,40,2,80,Chicago,Credit Card,February
+ORD0132,2025-03-07,Electronics,500,2,1000,Chicago,Debit Card,March
+ORD0133,2025-02-23,Electronics,800,1,800,New York,Amazon Pay,February
+ORD0134,2025-02-07,Electronics,500,5,2500,Chicago,Gift Card,February
+ORD0135,2025-02-10,Clothing,20,1,20,Miami,Credit Card,February
+ORD0136,2025-02-11,Home Appliances,1200,2,2400,San Francisco,PayPal,February
+ORD0137,2025-03-20,Electronics,150,3,450,San Francisco,Debit Card,March
+ORD0138,2025-02-11,Electronics,150,5,750,Los Angeles,Credit Card,February
+ORD0139,2025-03-18,Electronics,800,2,1600,Denver,PayPal,March
+ORD0140,2025-03-19,Electronics,150,2,300,Miami,Debit Card,March
+ORD0141,2025-03-21,Electronics,500,2,1000,Miami,PayPal,March
+ORD0142,2025-03-15,Electronics,500,3,1500,Miami,Gift Card,March
+ORD0143,2025-03-31,Home Appliances,1200,2,2400,Dallas,PayPal,March
+ORD0144,2025-02-27,Clothing,40,2,80,Los Angeles,Gift Card,February
+ORD0145,2025-03-08,Electronics,150,2,300,Seattle,Debit Card,March
+ORD0146,2025-03-25,Electronics,150,2,300,Boston,Debit Card,March
+ORD0147,2025-02-05,Footwear,60,5,300,Dallas,PayPal,February
+ORD0148,2025-02-06,Electronics,100,4,400,Los Angeles,Amazon Pay,February
+ORD0149,2025-03-20,Footwear,60,3,180,New York,Gift Card,March
+ORD0150,2025-02-08,Books,15,4,60,Chicago,Gift Card,February
+ORD0151,2025-03-29,Home Appliances,600,4,2400,Los Angeles,Amazon Pay,March
+ORD0152,2025-02-28,Electronics,150,1,150,Seattle,Gift Card,February
+ORD0153,2025-02-23,Electronics,150,5,750,San Francisco,PayPal,February
+ORD0154,2025-03-01,Electronics,100,2,200,Denver,Debit Card,March
+ORD0155,2025-02-05,Home Appliances,1200,4,4800,Seattle,Credit Card,February
+ORD0156,2025-03-16,Electronics,150,4,600,Miami,PayPal,March
+ORD0157,2025-02-08,Electronics,500,3,1500,Denver,Credit Card,February
+ORD0158,2025-02-24,Electronics,800,3,2400,Miami,Debit Card,February
+ORD0159,2025-02-16,Clothing,20,2,40,Dallas,Gift Card,February
+ORD0160,2025-02-06,Home Appliances,600,3,1800,Denver,Gift Card,February
+ORD0161,2025-02-22,Electronics,100,1,100,Los Angeles,Credit Card,February
+ORD0162,2025-02-09,Electronics,500,2,1000,Chicago,Credit Card,February
+ORD0163,2025-02-20,Footwear,60,2,120,Houston,PayPal,February
+ORD0164,2025-02-25,Electronics,150,5,750,Boston,Debit Card,February
+ORD0165,2025-03-14,Books,15,1,15,New York,Amazon Pay,March
+ORD0166,2025-03-30,Home Appliances,600,4,2400,Houston,Credit Card,March
+ORD0167,2025-03-20,Home Appliances,1200,2,2400,Seattle,Credit Card,March
+ORD0168,2025-03-24,Electronics,800,5,4000,Miami,Debit Card,March
+ORD0169,2025-03-06,Home Appliances,1200,2,2400,Denver,PayPal,March
+ORD0170,2025-02-28,Electronics,800,1,800,San Francisco,Gift Card,February
+ORD0171,2025-02-28,Electronics,150,2,300,Houston,PayPal,February
+ORD0172,2025-03-12,Books,15,1,15,Miami,Debit Card,March
+ORD0173,2025-02-28,Home Appliances,1200,1,1200,Seattle,PayPal,February
+ORD0174,2025-03-13,Electronics,150,2,300,Chicago,Debit Card,March
+ORD0175,2025-03-24,Clothing,40,5,200,New York,Debit Card,March
+ORD0176,2025-03-27,Books,15,1,15,Boston,Amazon Pay,March
+ORD0177,2025-03-14,Books,15,5,75,San Francisco,Credit Card,March
+ORD0178,2025-02-06,Electronics,500,3,1500,Chicago,PayPal,February
+ORD0179,2025-03-25,Clothing,40,1,40,Seattle,PayPal,March
+ORD0180,2025-03-04,Home Appliances,1200,3,3600,Boston,Gift Card,March
+ORD0181,2025-03-03,Footwear,60,2,120,Los Angeles,Debit Card,March
+ORD0182,2025-04-02,Clothing,20,5,100,Denver,PayPal,April
+ORD0183,2025-03-25,Home Appliances,600,1,600,Seattle,Debit Card,March
+ORD0184,2025-02-17,Books,15,5,75,Miami,Debit Card,February
+ORD0185,2025-03-22,Clothing,20,1,20,Dallas,Debit Card,March
+ORD0186,2025-03-02,Home Appliances,600,4,2400,New York,PayPal,March
+ORD0187,2025-03-13,Electronics,800,3,2400,New York,PayPal,March
+ORD0188,2025-02-14,Books,15,1,15,Boston,Amazon Pay,February
+ORD0189,2025-02-10,Electronics,800,3,2400,Houston,Amazon Pay,February
+ORD0190,2025-02-23,Footwear,60,1,60,Houston,PayPal,February
+ORD0191,2025-02-28,Clothing,40,4,160,Seattle,Amazon Pay,February
+ORD0192,2025-03-31,Electronics,100,3,300,Dallas,Gift Card,March
+ORD0193,2025-03-30,Books,15,5,75,Chicago,Amazon Pay,March
+ORD0194,2025-02-20,Clothing,40,4,160,San Francisco,Debit Card,February
+ORD0195,2025-03-10,Electronics,500,3,1500,Denver,Gift Card,March
+ORD0196,2025-03-04,Electronics,100,5,500,Seattle,Debit Card,March
+ORD0197,2025-03-12,Footwear,60,2,120,Denver,Gift Card,March
+ORD0198,2025-02-20,Electronics,800,4,3200,Seattle,Amazon Pay,February
+ORD0199,2025-02-22,Electronics,500,3,1500,Dallas,Credit Card,February
+ORD0200,2025-02-10,Books,15,2,30,Los Angeles,Debit Card,February
+ORD0201,2025-02-03,Books,15,4,60,San Francisco,Credit Card,February
+ORD0202,2025-02-21,Electronics,500,2,1000,Miami,Credit Card,February
+ORD0203,2025-02-21,Home Appliances,1200,3,3600,Dallas,Debit Card,February
+ORD0204,2025-03-08,Footwear,60,5,300,Miami,Gift Card,March
+ORD0205,2025-02-27,Electronics,100,2,200,Houston,PayPal,February
+ORD0206,2025-02-12,Home Appliances,600,5,3000,Miami,Amazon Pay,February
+ORD0207,2025-03-21,Home Appliances,600,1,600,Miami,Credit Card,March
+ORD0208,2025-02-02,Home Appliances,1200,3,3600,Miami,PayPal,February
+ORD0209,2025-03-29,Clothing,40,5,200,Dallas,PayPal,March
+ORD0210,2025-03-23,Electronics,800,3,2400,New York,PayPal,March
+ORD0211,2025-03-13,Electronics,500,1,500,Miami,Gift Card,March
+ORD0212,2025-03-09,Clothing,20,4,80,Houston,Debit Card,March
+ORD0213,2025-02-06,Electronics,800,1,800,Los Angeles,Amazon Pay,February
+ORD0214,2025-02-18,Electronics,150,5,750,Houston,Debit Card,February
+ORD0215,2025-03-07,Footwear,60,1,60,Houston,PayPal,March
+ORD0216,2025-03-26,Clothing,40,2,80,Chicago,Credit Card,March
+ORD0217,2025-03-19,Footwear,60,2,120,Boston,Gift Card,March
+ORD0218,2025-02-15,Electronics,100,4,400,New York,Gift Card,February
+ORD0219,2025-02-17,Electronics,100,3,300,Houston,PayPal,February
+ORD0220,2025-02-10,Electronics,150,3,450,Denver,Debit Card,February
+ORD0221,2025-02-28,Home Appliances,600,2,1200,Chicago,Gift Card,February
+ORD0222,2025-02-16,Home Appliances,600,2,1200,Seattle,PayPal,February
+ORD0223,2025-03-24,Clothing,40,2,80,Denver,Amazon Pay,March
+ORD0224,2025-03-18,Home Appliances,1200,1,1200,Miami,PayPal,March
+ORD0225,2025-03-11,Clothing,40,1,40,New York,Gift Card,March
+ORD0226,2025-03-05,Footwear,60,4,240,Chicago,Amazon Pay,March
+ORD0227,2025-04-02,Electronics,100,5,500,Miami,Amazon Pay,April
+ORD0228,2025-02-12,Footwear,60,1,60,San Francisco,Credit Card,February
+ORD0229,2025-03-21,Footwear,60,3,180,San Francisco,Credit Card,March
+ORD0230,2025-03-31,Electronics,100,4,400,San Francisco,Amazon Pay,March
+ORD0231,2025-02-16,Electronics,800,5,4000,Boston,Credit Card,February
+ORD0232,2025-03-14,Home Appliances,1200,3,3600,Los Angeles,Credit Card,March
+ORD0233,2025-02-20,Footwear,60,1,60,Boston,PayPal,February
+ORD0234,2025-03-08,Books,15,1,15,Miami,Amazon Pay,March
+ORD0235,2025-03-23,Home Appliances,1200,1,1200,Dallas,PayPal,March
+ORD0236,2025-03-05,Electronics,500,5,2500,Boston,PayPal,March
+ORD0237,2025-02-11,Electronics,100,3,300,Houston,Debit Card,February
+ORD0238,2025-03-16,Electronics,100,1,100,Denver,PayPal,March
+ORD0239,2025-03-22,Electronics,150,5,750,Houston,Amazon Pay,March
+ORD0240,2025-02-09,Electronics,150,1,150,Denver,Gift Card,February
+ORD0241,2025-03-30,Electronics,500,4,2000,New York,Credit Card,March
+ORD0242,2025-03-08,Electronics,500,4,2000,Boston,Gift Card,March
+ORD0243,2025-03-05,Footwear,60,2,120,Houston,Amazon Pay,March
+ORD0244,2025-02-06,Electronics,500,4,2000,Houston,Credit Card,February
+ORD0245,2025-02-04,Electronics,800,1,800,Los Angeles,Credit Card,February
+ORD0246,2025-03-17,Clothing,20,2,40,Miami,Debit Card,March
+ORD0247,2025-03-30,Clothing,40,1,40,Dallas,Debit Card,March
+ORD0248,2025-03-05,Clothing,20,2,40,Denver,Debit Card,March
+ORD0249,2025-03-08,Electronics,150,3,450,New York,Debit Card,March
+ORD0250,2025-02-19,Electronics,500,4,2000,Seattle,Amazon Pay,February
