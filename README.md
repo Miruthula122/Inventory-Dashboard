@@ -52,6 +52,9 @@ The following preprocessing steps were performed:
 * Created Month-based features for trend analysis
 * Prepared data for SQL querying and dashboard visualization
 
+<img width="732" height="345" alt="image" src="https://github.com/user-attachments/assets/7dc433c6-d55b-479a-9b51-a4cdeeeb4b23" />
+
+
 ---
 
 ## Exploratory Data Analysis
@@ -65,6 +68,10 @@ EDA was conducted using Python to identify:
 * Gender-wise revenue distribution
 
 Visualizations were created using Matplotlib and Seaborn to support the analysis.
+
+<img width="660" height="509" alt="image" src="https://github.com/user-attachments/assets/a9deba03-abf8-4327-b0c7-2b93d39f1f98" />
+<img width="660" height="509" alt="image" src="https://github.com/user-attachments/assets/d38559f9-b2a6-45ed-94a7-b83a6236ee8d" />
+
 
 ---
 
@@ -81,6 +88,9 @@ SQL queries were used to calculate:
 
 Advanced SQL concepts such as GROUP BY, HAVING, CTEs, and Window Functions were utilized.
 
+<img width="460" height="555" alt="image" src="https://github.com/user-attachments/assets/773f92c6-3795-4579-9b1a-50a762614137" />
+
+
 ---
 
 ## Dashboard Features
@@ -95,6 +105,13 @@ The Power BI dashboard includes:
 * Gender-wise Revenue Distribution
 * Interactive Filters and Slicers
 
+## Page 1
+<img width="1292" height="734" alt="image" src="https://github.com/user-attachments/assets/c5a8236f-c740-4083-9d83-282a14c53017" />
+
+## Page 2
+<img width="1298" height="737" alt="image" src="https://github.com/user-attachments/assets/6c0b7a9e-b195-4a38-b270-49fbb9bb2625" />
+
+
 ---
 
 ## Key Insights
@@ -104,6 +121,9 @@ The Power BI dashboard includes:
 * Total Revenue Generated: ₹699,845
 * Total Transactions: 1,250
 * Average Revenue per Order: ₹559.88
+
+<img width="1118" height="90" alt="image" src="https://github.com/user-attachments/assets/22e511aa-8180-46ca-90cf-91e632cd01d9" />
+
 
 ### Product Category Analysis
 
